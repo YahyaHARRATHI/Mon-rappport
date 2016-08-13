@@ -1,0 +1,182 @@
+\documentclass[12pt,a4paper]{report}
+
+%====================== PACKAGES 
+
+
+%TImes new roman
+\usepackage{times} 
+
+\usepackage[french]{babel}
+\usepackage[utf8]{inputenc}
+
+% Pour le footer et le header
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{titleps}
+
+
+%pour la mise en page des tableaux
+\usepackage{tabularx}
+
+\usepackage{ifpdf}
+\usepackage{ae}
+
+%police et mise en page (marges) du document
+\usepackage[T1]{fontenc}
+
+\usepackage[final]{pdfpages}
+\usepackage{tikz}
+\usepackage{verbatim}
+\usetikzlibrary{arrows,shapes}
+\usepackage{algorithm}
+\usepackage{algorithmic}
+\usepackage{vector}
+\usepackage{color}
+\usepackage{subfigure}
+\usepackage{lettrine}
+\usepackage{geometry}
+%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%===============Mes couleurs
+\definecolor{MyBleue}{RGB}{0, 191, 255}
+
+\textheight=675pt
+\textwidth=450pt
+\marginparwidth=1pt
+\topmargin=.5pt
+\oddsidemargin=3pt
+\marginparsep=1pt
+
+%%%%%%%%%%%%%%%%%%%
+
+\usepackage{lipsum}
+%%%%%%%%%%%%%
+\usepackage[hypcap]{caption}
+
+%pour les informations sur un document compilé en PDF et les liens externes / internes
+\usepackage{hyperref}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\usepackage{fancyhdr}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+\renewcommand{\baselinestretch}{1.5}
+
+
+\graphicspath{{images/}}
+
+
+%=========cadre des noms des chapitres et
+\usepackage[Glenn]{fncychap}
+
+
+%==================== DEBUT DU DOCUMENT ===============
+\begin{document}
+
+%régler l'espacement entre les lignes
+
+
+%====================page de garde===================
+\thispagestyle{empty}
+\newgeometry{top=0.5cm,bottom=1.5cm}
+\input{./page_de_garde.tex}
+\restoregeometry
+
+%page blanche
+\newpage
+~
+%ne pas numéroter cette page
+\thispagestyle{empty}
+%===============Dédicasse================
+
+\newpage
+
+include Dédicace
+%ne pas numéroter cette page
+\thispagestyle{empty}
+
+%================Remerciments================
+\newpage
+\fancyhf{}% Clear header/footer
+
+remerciment
+
+\thispagestyle{empty}
+%================Tables des matières==============
+
+\newpage
+%ne pas numéroter le sommaire
+
+\tableofcontents
+
+\thispagestyle{empty}
+
+%=================Listes des figures==============
+
+\newpage
+%ne pas numéroter le sommaire
+
+\listoffigures
+\thispagestyle{empty}
+%===============Listes des tableaux============
+\newpage
+%ne pas numéroter cette page
+\listoftables
+\thispagestyle{empty}
+
+
+
+
+
+%====================== INCLUSION DES PARTIES ========
+\newpage
+~
+%recommencer la numérotation des pages à "1"
+\setcounter{page}{0}
+\thispagestyle{empty}
+
+\newpage
+
+
+
+%=================le header et le footer
+
+
+%\pagestyle{fancy}
+%\fancyhf{}
+%\fancyhfoffset[L]{.5cm}
+%\renewcommand{\headrulewidth}{1pt}
+
+%\fancyhead[L]{\leftmark}
+%\fancyhead[R]{AHEADIT}
+
+%\renewcommand{\footrulewidth}{1pt}
+%\fancyfoot[R]{\textbf{page \thepage}} 
+%\fancyfoot[L]{ISI : Institut Supérieur d'Informatique}
+
+\input{./chap_Realisation_et_tests.tex}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\end{document}

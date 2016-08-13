@@ -1,0 +1,76 @@
+\chapter{Réalisation et tests}
+
+\setcounter{page}{0}
+\thispagestyle{empty}
+
+\newpage
+
+%================header and footer============
+
+\fancyhf{}% Clear header/footer
+\newpagestyle{ruled}
+{\sethead{}{}{Réalisation et tests}\headrule
+  \setfoot{ISI : Institut Supéerieur d'Informatique}{}
+  { \thepage}\footrule}
+\pagestyle{ruled}
+
+\renewcommand\makeheadrule{\color{cyan}\rule[-.3\baselineskip]{\linewidth}{2.5pt}}
+\renewcommand\makefootrule{\color{cyan}\rule[\baselineskip]{\linewidth}{2.5pt}}
+
+
+%==============Début
+\begin{Large}
+Introduction 
+\end{Large}
+
+Après avoir élaboré la conception de mon application, j’aborde dans ce chapitre le dernier volet de ce rapport, qui a pour objectif d'exposer la phase de réalisation.\\
+Je mène tout d’abord une étude technique où je décris les ressources logicielles utilisées dans le développement du projet.\\
+ Je présente en premier lieu mon choix de l’environnement de travail, où je spécifie l’environnement matériel et logiciel que j’ai utilisé pour réaliser l’application puis je détaille l’architecture.\\
+Par la suite, je présente quelques interfaces réalisées pour illustrer le fonctionnement de quelques activités du système. 
+
+\renewcommand{\thesection}{\arabic{section}}
+\section{Etude technique}
+
+\subsection{Environnement matériel}
+A fin de réaliser le projet, j’ai travaillé sur un ordinateur portable qui a les caractéristiques suivantes :\\ 
+
+\begin{table}[!h]
+\begin{center}
+\begin{tabular}{|l|l|}
+\hline 
+Marque & DELL INSPIRON N5040 \\ 
+\hline 
+Processeur & Intel core i3 @2.20GHZ \\ 
+\hline 
+Mémoire & 6,00 Go \\ 
+\hline 
+Système d'exploitation & Windows 8.1 64 bits \\ 
+\hline 
+\end{tabular} 
+\end{center}
+\caption{Tableau de l'environnement matériel}
+\end{table}
+
+\subsection{Environnement logiciel}
+\subsubsection{Outils de développement}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
