@@ -1,6 +1,6 @@
 \chapter{Réalisation et tests}
 
-\setcounter{page}{0}
+\setcounter{page}{1}
 \thispagestyle{empty}
 
 \newpage
@@ -17,7 +17,7 @@
 \renewcommand\makeheadrule{\color{cyan}\rule[-.3\baselineskip]{\linewidth}{2.5pt}}
 \renewcommand\makefootrule{\color{cyan}\rule[\baselineskip]{\linewidth}{2.5pt}}
 
-
+\setcounter{page}{1}
 %==============Début
 \begin{Large}
 Introduction 
@@ -28,7 +28,7 @@ Je mène tout d’abord une étude technique où je décris les ressources logic
  Je présente en premier lieu mon choix de l’environnement de travail, où je spécifie l’environnement matériel et logiciel que j’ai utilisé pour réaliser l’application puis je détaille l’architecture.\\
 Par la suite, je présente quelques interfaces réalisées pour illustrer le fonctionnement de quelques activités du système. 
 
-\renewcommand{\thesection}{\arabic{section}}
+%\renewcommand{\thesection}{\arabic{section}}
 \section{Etude technique}
 
 \subsection{Environnement matériel}
@@ -53,24 +53,75 @@ Système d'exploitation & Windows 8.1 64 bits \\
 
 \subsection{Environnement logiciel}
 \subsubsection{Outils de développement}
+%=================NetBeans================
+\begin{itemize}
+\item NetBeans JEE\\
+
+%inclusion d'une mage dans le document
+\begin{figure}[!h]
+\begin{center}
+%taille de l'image en largeur
+%remplacer "width" par "height" pour régler la hauteur
+\includegraphics[width=3cm]{./NetBeans}
+
+%légende de l'image
+\caption{Logo NetBeans}
+\end{center}
+\end{figure}
+
+NetBeans est un environnement de développement intégré(EDI)open source,crié par Sun Microsystems en 2000 \cite{cite1}.
+
+%=================Postman===================
+\item Postman
+
+
+\begin{figure}[!h]
+\begin{center}
+
+\includegraphics[width=3cm]{./Postman}
+
+\caption{Logo Postman}
+\end{center}
+\end{figure}
+
+
+%=================SQLDevveloper===================
+\item SQL Developer
+
+
+\begin{figure}[!h]
+\begin{center}
+
+\includegraphics[width=3cm]{./SQLDeveloper}
+
+\caption{Logo Oracle SQL Developer}
+\end{center}
+\end{figure}
 
 
 
+Oracle SQL Developer est un environnement de développement intégré (EDI) multi-plateforme, fourni gratuitement par Oracle Corporation et utilisant la technologie Java (Java Development Kit). C'est un outil graphique permettant d'interroger des bases de données Oracle à l'aide du langage SQL.
+
+\end{itemize}
+
+%=============================Outils de modélisation
+
+\subsubsection{Outils de modélisation}
+
+\begin{itemize}
+\item StarUML
 
 
+\begin{figure}[!h]
+\begin{center}
+
+\includegraphics[width=3cm]{./StarUML}
+
+\caption{Logo StarUML}
+\end{center}
+\end{figure}
 
 
+StarUML est un logiciel de modélisation UML, écrit en Delphi. il est facile à utiliser, propose plusieurs générateurs de code et gère la plupart des diagrammes spécifiés dans la norme UML 2.0.\cite{cite2}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+\end{itemize}
