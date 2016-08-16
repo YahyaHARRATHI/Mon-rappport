@@ -1,6 +1,6 @@
 \documentclass[12pt,a4paper]{report}
-
 %====================== PACKAGES 
+
 
 
 %TImes new roman
@@ -134,22 +134,17 @@ remerciment
 %====================== INCLUSION DES PARTIES ========
 \newpage
 ~
-%recommencer la numérotation des pages à "1"
+%recommencer la numérotation des pages �  "1"
 \setcounter{page}{0}
 \thispagestyle{empty}
 
 \newpage
 
 
+\input{./chap_2_Specification_des_besoins.tex}
+\input{chap_3_analyse_et_conception.tex}
+
 \input{./chap_Realisation_et_tests.tex}
-
-
-
-
-
-
-
-
 
 
 

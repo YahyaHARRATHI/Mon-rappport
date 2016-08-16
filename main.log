@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.6.8)  14 AUG 2016 23:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.8.15)  16 AUG 2016 23:17
 entering extended mode
 **./main.tex
 (main.tex
@@ -412,7 +412,7 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\titlesec\titlesec.sty"
+(C:\Users\yayan\AppData\Roaming\MiKTeX\2.9\tex\latex\titlesec\titlesec.sty
 Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 \ttl@box=\box26
 \beforetitleunit=\skip50
@@ -424,10 +424,10 @@ Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 \titlewidthlast=\dimen109
 \titlewidthfirst=\dimen110
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\titlesec\titleps.sty"
+(C:\Users\yayan\AppData\Roaming\MiKTeX\2.9\tex\latex\titlesec\titleps.sty
 Package: titleps 2016/03/15 v1.1.1 Page styles
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\titlesec\ttlps.def"
+(C:\Users\yayan\AppData\Roaming\MiKTeX\2.9\tex\latex\titlesec\ttlps.def
 File: ttlps.def 2016/03/15
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\tabularx.sty"
@@ -1271,20 +1271,20 @@ LaTeX Info: Redefining \nameref on input line 77.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
  (page_de_garde.tex
-<images/ministere.jpg, id=22, 471.26062pt x 96.36pt>
+<images/ministere.jpg, id=82, 471.26062pt x 96.36pt>
 File: images/ministere.jpg Graphic file (type jpg)
 
 <use images/ministere.jpg>
 Package pdftex.def Info: images/ministere.jpg used on input line 5.
 (pdftex.def)             Requested size: 418.25368pt x 85.52191pt.
- <images/isi.jpg, id=23, 114.4275pt x 48.18pt>
+ <images/isi.jpg, id=83, 114.4275pt x 48.18pt>
 File: images/isi.jpg Graphic file (type jpg)
 
 <use images/isi.jpg>
 Package pdftex.def Info: images/isi.jpg used on input line 7.
 (pdftex.def)             Requested size: 250.95476pt x 105.66985pt.
 
-<images/ISI_abreviation.jpg, id=24, 292.09125pt x 19.57312pt>
+<images/ISI_abreviation.jpg, id=84, 292.09125pt x 19.57312pt>
 File: images/ISI_abreviation.jpg Graphic file (type jpg)
 
 <use images/ISI_abreviation.jpg>
@@ -1328,102 +1328,119 @@ LaTeX Font Info:    External font `cmex10' loaded for size
  [6
 
 ] [0]
-(chap_Realisation_et_tests.tex
+(chap_2_Specification_des_besoins.tex
 Chapitre 1.
-LaTeX Font Info:    Try loading font information for T1+aess on input line 1.
+LaTeX Font Info:    Try loading font information for T1+aess on input line 2.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\ae\t1aess.fd"
 File: t1aess.fd 1997/11/16 Font definitions for T1/aess.
 )pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.6 \newpage
+l.7 \newpage
              [1
 
+]) (chap_3_analyse_et_conception.texpdfTeX warning (ext4): destination with the
+ same identifier (name{page.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.2 \chapter{Analyse et conception}
+                                    [2]
+Chapitre 2.
+pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.7 \newpage
+             [3
+
+]) (chap_Realisation_et_tests.texpdfTeX warning (ext4): destination with the sa
+me identifier (name{page.4}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1 \chapter{Réalisation et tests}
+                                    [4]
+Chapitre 3.
+pdfTeX warning (ext4): destination with the same identifier (name{page.5}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.6 \newpage
+             [5
+
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 35--36
+Underfull \hbox (badness 10000) in paragraph at lines 28--29
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--59
+Underfull \hbox (badness 10000) in paragraph at lines 51--52
 
  []
 
-<images/./NetBeans.png, id=79, 451.6875pt x 196.735pt>
+<images/./NetBeans.png, id=177, 451.6875pt x 196.735pt>
 File: images/./NetBeans.png Graphic file (type png)
 
 <use images/./NetBeans.png>
-Package pdftex.def Info: images/./NetBeans.png used on input line 65.
+Package pdftex.def Info: images/./NetBeans.png used on input line 58.
 (pdftex.def)             Requested size: 85.35826pt x 37.1759pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-LaTeX Warning: Citation `cite1' on page 1 undefined on input line 72.
+LaTeX Warning: Citation `cite1' on page 6 undefined on input line 65.
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+pdfTeX warning (ext4): destination with the same identifier (name{page.6}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.73 
-      [1] <images/./Postman.png, id=86, 401.5pt x 401.5pt>
+l.68 \item P
+            ostman [6] <images/./Postman.png, id=184, 401.5pt x 401.5pt>
 File: images/./Postman.png Graphic file (type png)
 
 <use images/./Postman.png>
-Package pdftex.def Info: images/./Postman.png used on input line 81.
+Package pdftex.def Info: images/./Postman.png used on input line 74.
 (pdftex.def)             Requested size: 85.35826pt x 85.35896pt.
 
-<images/./SQLDeveloper.png, id=87, 194.22563pt x 75.28125pt>
+<images/./SQLDeveloper.png, id=185, 194.22563pt x 75.28125pt>
 File: images/./SQLDeveloper.png Graphic file (type png)
 
 <use images/./SQLDeveloper.png>
-Package pdftex.def Info: images/./SQLDeveloper.png used on input line 95.
+Package pdftex.def Info: images/./SQLDeveloper.png used on input line 88.
 (pdftex.def)             Requested size: 85.35826pt x 33.08478pt.
 
-<images/./StarUML.jpg, id=88, 238.64156pt x 94.10156pt>
+<images/./StarUML.jpg, id=186, 238.64156pt x 94.10156pt>
 File: images/./StarUML.jpg Graphic file (type jpg)
 
 <use images/./StarUML.jpg>
-Package pdftex.def Info: images/./StarUML.jpg used on input line 118.
+Package pdftex.def Info: images/./StarUML.jpg used on input line 111.
 (pdftex.def)             Requested size: 85.35826pt x 33.65828pt.
 
 
-LaTeX Warning: Citation `cite2' on page 2 undefined on input line 125.
+LaTeX Warning: Citation `cite2' on page 7 undefined on input line 118.
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.127 \end{itemize}
-                    [2 <./images/./NetBeans.png> <./images/./Postman.png> <./im
-ages/./SQLDeveloper.png> <./images/./StarUML.jpg>])pdfTeX warning (ext4): desti
-nation with the same identifier (name{page.3}) has been already used, duplicate
- ignored
-<to be read again> 
-                   \relax 
-l.159 \newpage
-               [3]
+[7 <./images/./NetBeans.png> <./images/./Postman.png> <./images/./SQLDeveloper.
+png> <./images/./StarUML.jpg>]) [8]
 No file main.bbl.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 165.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 165.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 160.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 160.
 (main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 165.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 165.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 160.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 160.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 5640E426338B6E7DEF149246E3240743;276.
+(rerunfilecheck)             Checksum: C46810DDC8003ADF414056CC42DF3C30;1457.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 165.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 160.
  ) 
 Here is how much of TeX's memory you used:
- 22545 strings out of 493335
- 430036 string characters out of 3139261
- 630278 words of memory out of 3000000
- 25554 multiletter control sequences out of 15000+200000
+ 22594 strings out of 493335
+ 430945 string characters out of 3139260
+ 631278 words of memory out of 3000000
+ 25570 multiletter control sequences out of 15000+200000
  44019 words of font info for 86 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,8n,67p,409b,484s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1432,9 +1449,9 @@ ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program F
 iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKT
 eX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fo
 nts/type1/public/amsfonts/cm/cmss17.pfb>
-Output written on main.pdf (12 pages, 308717 bytes).
+Output written on main.pdf (16 pages, 326966 bytes).
 PDF statistics:
- 122 PDF objects out of 1000 (max. 8388607)
- 19 named destinations out of 1000 (max. 500000)
- 80 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 228 PDF objects out of 1000 (max. 8388607)
+ 46 named destinations out of 1000 (max. 500000)
+ 200 words of extra memory for PDF output out of 10000 (max. 10000000)
 

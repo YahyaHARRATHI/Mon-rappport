@@ -1,0 +1,37 @@
+
+\chapter{Spécification des besoins}
+
+\setcounter{page}{1}
+\thispagestyle{empty}
+
+\newpage
+
+%================header and footer============
+
+\fancyhf{}% Clear header/footer
+\newpagestyle{ruled}
+{\sethead{}{}{Spécifications des besoins}\headrule
+  \setfoot{ISI : Institut Supérieur d'Informatique}{}
+  { \thepage}\footrule}
+\pagestyle{ruled}
+
+\renewcommand\makeheadrule{\color{cyan}\rule[-.3\baselineskip]{\linewidth}{2.5pt}}
+\renewcommand\makefootrule{\color{cyan}\rule[\baselineskip]{\linewidth}{2.5pt}}
+
+
+%==============Début
+
+ \section{Identification des besoins fonctionnels}
+ 
+ \section{Identification des besoins non fonctionnels}
+ 
+ 
+ \section{Diagramme des cas d'utilisations global}
+ 
+ 
+ \section{Identifications des acteurs et des cas d'utilisations}
+ 
+ \subsection{Identification des acteurs}
+ 
+ \subsection{Identification de cas d'utilisations}
+ 
