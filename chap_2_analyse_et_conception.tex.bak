@@ -1,4 +1,4 @@
-
+%chap2
 \chapter{Analyse et conception}
 
 
@@ -29,7 +29,7 @@
    
     \subsubsection{Diagramme détaillé de cas d'utilisation <<Annulation de voyage>>}
     
-     \subsubsection{Diagramme détaillé de cas d'utilisation <<Retour de voyage>>}
+     \subsubsection{Diagramme détaillé de cas d'utilisation <<Rétrocession>>}
      
      \subsubsection{Diagramme détaillé de cas d'utilisation <<Ajouter un Bénéficiaire>>}
      
@@ -42,7 +42,7 @@
  
  \subsubsection{Diagrammes d'activité << Demande d'exécution d'opérations>>}
  
-  \subsubsection{Diagrammes d'activité << Retour de voyage>>}
+  \subsubsection{Diagrammes d'activité <<Rétrocession>>}
   
   \subsection{Diagrammes de séquences}
   
@@ -50,7 +50,21 @@
   
   \subsubsection{Diagramme de séquence << Ajouter bénéficiaire>>}
   
-  \subsection{Diagramme de classes global}
+  \subsection{Diagramme des classes global}
+  
+  %inclusion d'une mage dans le document
+\begin{figure}[!h]
+
+
+%remplacer "width" par "height" pour régler la hauteur
+
+\begin{center}
+\includegraphics{./conception/diagramme_classes}
+
+%légende de l'image
+\caption{Diagramme des classes global}
+\end{center}
+\end{figure}
   
   
   

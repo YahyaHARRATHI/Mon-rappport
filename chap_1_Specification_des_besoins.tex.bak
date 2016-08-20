@@ -33,7 +33,12 @@ Les besoins fonctionnels doivent répondre aux points précis du cahier des char
 \begin{itemize}
 \item \textbf{L'accès et l'identification.}
 
- 
+\begin{itemize}
+\item  L'application traite l'accès des utilisateurs.
+\item Chaque utilisateur a une interface unique.
+\end{itemize}
+
+
 
 \item \textbf{Demande d'ouverture d'un dossier AVA.}
 
@@ -71,17 +76,19 @@ Le montant de l'allocation est fixé à 15\% du prix du contrat de marché à ti
 
 Le client peut  demander à d'ouvrir un dossier AVA (Exportateur, Importateur, Autres Activités, Nouveau Promoteur, Marché réalisable à l'étranger) en remplissant un formulaire .
 
-%=============Revenir au premiere liste
+%=============Revenir au premiere liste==================
 \item \textbf{Consulter l'avancement des dossiers AVA.}
-
+Un dossier AVA a plusieurs états :
 \item \textbf{Annulation de voyage.} 
+Le client a le droit d'annuler sa voyage et de retourner l'argent dans le dossier AVA, dans un délai de 30 jours. 
 
 \item \textbf{Rétrocession.} 
-
+Après le retour du client d'une voyage d'affaire, il peut faire une rétrocession de l'argent restantes,dans un délai de 7 jours de son retour.
 \item \textbf{Ajouter un Bénéficiaire.}
+Les sociétés clientes du STB peuvent ajouter ses employés pour bénéficier de l'allocation.
 
 \item \textbf{Désactiver un Bénéficiaire.}
-
+Les sociétés clientes du STB peuvent ajouter ses employés pour bénéficier de l'allocation.
 
 \end{itemize}
  
@@ -101,6 +108,15 @@ Le client peut  demander à d'ouvrir un dossier AVA (Exportateur, Importateur, A
  \end{itemize}
  \section{Diagramme des cas d'utilisations global}
  
+ \begin{figure}[!h]
+\begin{center}
+
+\includegraphics[width=10cm]{./conception/Global_use_case}
+
+\caption{Diagramme des cas d'utilisations global}
+\end{center}
+\end{figure}
+
  
  \section{Identifications des acteurs et des cas d'utilisations}
  
