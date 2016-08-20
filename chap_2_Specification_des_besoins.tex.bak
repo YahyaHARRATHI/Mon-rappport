@@ -21,11 +21,84 @@
 
 %==============Début
 
+ \section{Description du projet}
+Le projet consiste à développer une application web pour la gestion des Allocations pour Voyages d'Affaires (AVA) destinée aux clients de la banque STB.
+L'AVA permet aux clients de disposer d'une enveloppe de devises transférables destinée à couvrir les frais de vos voyages / séjours à l'étranger dans le cadre de leurs activités professionnelles.
+L'application doit être sécurisée au niveau des échanges des messages et au niveau accès au contenu.
+ 
  \section{Identification des besoins fonctionnels}
+
+Les besoins fonctionnels doivent répondre aux points précis du cahier des charges qui présente les exigences du futur outil en termes de fonctionnalités. Ce sont une sorte de contrat ou de promesse entre l'utilisateur et le développeur. Les fonctionnalités qui doivent être fournit par mon application sont les suivantes : 
+
+\begin{itemize}
+\item \textbf{L'accès et l'identification.}
+
  
- \section{Identification des besoins non fonctionnels}
+
+\item \textbf{Demande d'ouverture d'un dossier AVA.}
+
+%========2eme liste integrée
+\begin{itemize}
+\item \textbf{Les types d'Allocation :}
+L'Allocation pour Voyages d'Affaires peut prendre plusieurs formes :
+
+%======3eme niveau
+\begin{itemize}
+\item A.V.A exportateur : 
+Le montant de l'allocation est fixé actuellement à 25\% des recettes d'exportation de biens ou de services (Vente directe ou indirecte)
+sans dépasser un plafond annuel de Cinq Cents Mille (500.000,000) dinars.
+
+\item A.V.A importateur :
+Le montant de l'allocation est déterminé à partir du montant des importations réalisées durant l'année précédente.\\
+L'allocation est comprise entre 5000 et 50000 dinars.
+
+\item A.V.A autres activités :
+
+Le montant de l'allocation est déterminé à partir du montant du Chiffre d'affaires hors taxes déclaré de l'année précédente.\\
+L'allocation est comprise entre 3000 et 30000 dinars.
+
+\item A.V.A nouveau promoteur :
+Le montant de l'allocation est fixé à Quinze Mille (15.000) dinars.\\
+L'allocation est accordée une seule fois pour toute la période relative à la réalisation du projet.\\
+Une fois le quota épuisé, le dossier est clôturé et le client peut choisir une autre catégorie d'AVA
+
+\item A.V.A marchés réalisables à l'étranger :
+Le montant de l'allocation est fixé à 15\% du prix du contrat de marché à titre duquel l'allocation est demandée .
+
+\end{itemize} %3eme niveau
+\end{itemize} %2eme niveau
+
+
+Le client peut  demander à d'ouvrir un dossier AVA (Exportateur, Importateur, Autres Activités, Nouveau Promoteur, Marché réalisable à l'étranger) en remplissant un formulaire .
+
+%=============Revenir au premiere liste
+\item \textbf{Consulter l'avancement des dossiers AVA.}
+
+\item \textbf{Annulation de voyage.} 
+
+\item \textbf{Retour de voyage.} 
+
+\item \textbf{Ajouter un Bénéficiaire.}
+
+\item \textbf{Désactiver un Bénéficiaire.}
+
+
+\end{itemize}
  
+ \section{Identification des besoins non fonctionnels} 
+ Outre que les besoins fonctionnels, il faut tenir compte des certains besoins non fonctionnels nécessaires pour une exploitation simple et consistantes des différentes fonctionnalités offertes :
  
+ \begin{itemize}
+ \item La rapidité de traitement : optimisation de temps de réponse s'approche le plus possible de temps réel.
+ 
+ \item La convivialité : l'application doit être facile à utiliser. En effet, l'interface utilisateur doit être conviviale c'est-à-dire simple, ergonomique et facile à utiliser.
+ 
+ \item L'ergonomie des interfaces hommes -machine (IHM) : l'ergonomie est définie comme l'ensemble des connaissances pour concevoir des applications qui puissent être utilisée avec le maximum d'efficacité et de sécurité. Notre application doit être d'une part utile (répond aux besoins utilisateurs) et d'une autre part utilisable (facile à utiliser).
+ Pour ce fait, nous devons respecter les critères de qualité des interfaces.
+
+\item Le système doit être une solution informatique performante dans la bonne circulation de l'information et du travail.
+ 
+ \end{itemize}
  \section{Diagramme des cas d'utilisations global}
  
  

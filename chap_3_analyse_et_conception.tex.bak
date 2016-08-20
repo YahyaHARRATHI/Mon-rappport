@@ -23,7 +23,9 @@
    
    \subsubsection{Diagramme détaillé de cas d'utilisation <<s'authentifier>>}
    
-   \subsubsection{Diagramme détaillé de cas d'utilisation <<Demande d'exécution d'opération>>}
+   \subsubsection{Diagramme détaillé de cas d'utilisation <<demande d'ouverture d'un dossier AVA>>}
+  
+  \subsubsection{Diagramme détaillé de cas d'utilisation <<Consulter l'avancement des dossiers AVA>>}
    
     \subsubsection{Diagramme détaillé de cas d'utilisation <<Annulation de voyage>>}
     
