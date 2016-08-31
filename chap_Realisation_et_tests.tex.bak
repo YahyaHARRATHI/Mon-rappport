@@ -99,12 +99,10 @@ Oracle SQL Developer est un environnement de développement intégré (EDI) mult
 
 %=============================Outils de modélisation
 
-\subsubsection{Outils de modélisation}
+\begin{Outils de modélisation}
 
 \begin{itemize}
 \item StarUML
-
-
 \begin{figure}[!h]
 \begin{center}
 
@@ -118,3 +116,12 @@ Oracle SQL Developer est un environnement de développement intégré (EDI) mult
 StarUML est un logiciel de modélisation UML, écrit en Delphi. il est facile à utiliser, propose plusieurs générateurs de code et gère la plupart des diagrammes spécifiés dans la norme UML 2.0.\cite{cite2}
 
 \end{itemize}
+%=================Les interface============
+\section{Les interfaces}
+\subsection{Schéma de navigation du client}
+
+
+\subsection{Interface d'authentification}
+
+
+\subsection{Interface de création d'un dossier AVA}

@@ -23,7 +23,7 @@
 
  \section{Description du projet}
 Le projet consiste à développer une application web pour la gestion des Allocations pour Voyages d'Affaires (AVA) destinée aux clients de la banque STB.
-L'AVA permet aux clients de disposer d'une enveloppe de devises transférables destinée à couvrir les frais de vos voyages / séjours à l'étranger dans le cadre de leurs activités professionnelles.
+L'AVA permet aux clients de disposer d'une enveloppe de devises transférables destinée à couvrir les frais de leurs voyages / séjours à l'étranger dans le cadre de leurs activités professionnelles.
 L'application doit être sécurisée au niveau des échanges des messages et au niveau accès au contenu.
  
  \section{Identification des besoins fonctionnels}
@@ -74,7 +74,7 @@ Le montant de l'allocation est fixé à 15\% du prix du contrat de marché à ti
 \end{itemize} %2eme niveau
 
 
-Le client peut  demander à d'ouvrir un dossier AVA (Exportateur, Importateur, Autres Activités, Nouveau Promoteur, Marché réalisable à l'étranger) en remplissant un formulaire .
+Le client peut  demander d'ouvrir un dossier AVA (Exportateur, Importateur, Autres Activités, Nouveau Promoteur, Marché réalisable à l'étranger) en remplissant un formulaire .
 
 %=============Revenir au premiere liste==================
 \item \textbf{Consulter l'avancement des dossiers AVA.}
@@ -84,11 +84,12 @@ Le client a le droit d'annuler sa voyage et de retourner l'argent dans le dossie
 
 \item \textbf{Rétrocession.} 
 Après le retour du client d'une voyage d'affaire, il peut faire une rétrocession de l'argent restantes,dans un délai de 7 jours de son retour.
-\item \textbf{Ajouter un Bénéficiaire.}
-Les sociétés clientes du STB peuvent ajouter ses employés pour bénéficier de l'allocation.
+\item \textbf{Gérer les Bénéficiaires.}
+Les sociétés clientes du STB peuvent gérer ses employés en changeant leurs etats à : désactivé,à activer, actif ou non actif.
 
-\item \textbf{Désactiver un Bénéficiaire.}
-Les sociétés clientes du STB peuvent ajouter ses employés pour bénéficier de l'allocation.
+\item \textbf{Demander frais de voyage.}
+Les Bénéficiaires d'allocations peuvent demander les frais de voyage en ligne.
+
 
 \end{itemize}
  
@@ -120,7 +121,47 @@ Les sociétés clientes du STB peuvent ajouter ses employés pour bénéficier d
  
  \section{Identifications des acteurs et des cas d'utilisations}
  
- \subsection{Identification des acteurs}
  
- \subsection{Identification de cas d'utilisations}
  
+ \begin{table}[!h]
+\begin{center}
+\begin{tabular}{|l|l|}
+\hline 
+Acteur & Type \\ 
+\hline 
+Client & Principale \\ 
+\hline 
+Bénéficiaire & Principale \\ 
+\hline 
+STB & Principale \\ 
+\hline 
+\end{tabular} 
+\end{center}
+\caption{Tableau d'identification des acteurs.}
+\end{table}
+
+
+ 
+%new table
+
+
+\begin{comment}
+\begin{table}[!h] 
+\begin{center}
+\begin{tabular}{ |c|c| } 
+\hline
+Acteur &  Cas d'utilisation  \\
+\hline
+\multirow{5}{*}{Client} & Ouverture dossier AVA  \\ 
+& Consulter état dossier AVA  \\ 
+& Gérer bénéficiaires  \\ 
+& Annuler un voyage \\
+& Rétrocéder \\
+
+
+\hline STB & Principale \\ 
+\end{tabular}
+\end{center} 
+ \caption{Tableau d'identification des acteurs.}
+\end{table}
+ \end{comment}

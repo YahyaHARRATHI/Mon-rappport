@@ -20,35 +20,78 @@
 \subsection{Modèle du cycle de vie}
 
 \subsection{Raffinement des cas d'utilisations}
+
    
-   \subsubsection{Diagramme détaillé de cas d'utilisation <<s'authentifier>>}
+   \begin{enumerate}[label=(\alph*)]
+   \item {Diagramme détaillé de cas d'utilisation \textless  Demander l'ouverture d'un dossier AVA \textgreater}
    
-   \subsubsection{Diagramme détaillé de cas d'utilisation <<demande d'ouverture d'un dossier AVA>>}
-  
-  \subsubsection{Diagramme détaillé de cas d'utilisation <<Consulter l'avancement des dossiers AVA>>}
-   
-    \subsubsection{Diagramme détaillé de cas d'utilisation <<Annulation de voyage>>}
-    
-     \subsubsection{Diagramme détaillé de cas d'utilisation <<Rétrocession>>}
-     
-     \subsubsection{Diagramme détaillé de cas d'utilisation <<Ajouter un Bénéficiaire>>}
-     
-      \subsubsection{Diagramme détaillé de cas d'utilisation <<Désactiver un Bénéficiaire>>}
-     
+    \begin{figure}[!h]
+\begin{center}
+
+\includegraphics[width=10cm]{./conception/use_case_ouverture}
+
+\caption{Diagramme détaillé de cas d'utilisation demande d'ouverture d'un dossier AVA.}
+\end{center}
+\end{figure}
  
+  Le client du STB peut demander, en ligne, la création d'un dossier AVA en remplissant un formulaire.
+Ce dernier contient des informations concernant son type d'activité, compte dans la banque STB, etc.
+Le Client peut ajouter des bénéficiaires et choisir leurs états (désactivé, à activer, actif, non actif).
+À la fin du formulaire, il doit insérer des fichiers PDF qui varient selon le type du dossier choisi.
+ 
+
+   
+    \item{Diagramme détaillé de cas d'utilisation \textless Annulation de voyage \textgreater}
+    
+     \item{Diagramme détaillé de cas d'utilisation \textless Rétrocession \textgreater}
+     
+     \item{Diagramme détaillé de cas d'utilisation \textless Ajouter un Bénéficiaire \textgreater}
+     
+      \item{Diagramme détaillé de cas d'utilisation \textless Désactiver un Bénéficiaire \textgreater}
+    \end{enumerate}    
+ 
+
+
  \section{Conception}
  
  \subsection{Diagrammes d'activités}
  
- \subsubsection{Diagrammes d'activité << Demande d'exécution d'opérations>>}
- 
-  \subsubsection{Diagrammes d'activité <<Rétrocession>>}
+ \subsubsection{Diagrammes de séquence \textless Demande d'ouverture d'un dossier AVA \textgreater}
+
+\begin{figure}[!h]
+ \begin{center}
+\includegraphics{./conception/sequence_ouverture}
+
+%légende de l'image
+\caption{Diagramme de séquence\textless ouverture dossier AVA\textgreater}
+\end{center}
+\end{figure}
+
+%description textuelle
+\begin{itemize}
+\item  Description textuelle \\
+Titre : Demande d'ouverture d'un dossier AVA.\\
+Acteur principal : client du STB.\\
+Résumé : Le client du STB doit pouvoir demander en ligne la création d'un dossier AVA.\\
+
+Scénario nominal\\
+\begin{enumerate}
+\item Le client choisit l'interface d'ouverture d'un dossier AVA.
+\item Il remplit un formulaire d'ouverture.
+\item Il valide le formulaire.
+\item Le système valide les champs saisis.
+\item Le système trouve que le client n'a pas un dossier AVA ouvert.
+\item Notification de la création de la demande.
+\end{enumerate}
+\end{itemize}
+
+  \subsubsection{Diagrammes d'activité \textless Rétrocession \textgreater}
   
   \subsection{Diagrammes de séquences}
   
-  \subsubsection{Diagramme de séquence << s'authentifier>>}
+  \subsubsection{Diagramme de séquence \textless s'authentifier \textgreater}
   
-  \subsubsection{Diagramme de séquence << Ajouter bénéficiaire>>}
+  \subsubsection{Diagramme de séquence \textless Ajouter bénéficiaire \textgreater}
   
   \subsection{Diagramme des classes global}
   
